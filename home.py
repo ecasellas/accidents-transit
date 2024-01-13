@@ -8,7 +8,9 @@ st.title("Accidents de trànsit a Catalunya")
 
 st.markdown("En aquesta pàgina web trobareu una visió general sobre la problemàtica dels accidents de trànsit "
             "a Catalunya entre el 2010 i el 2021. A través de gràfics interactius es desglossarà informació "
-            "sobre els tipus d'accidents, la mortalitat d'aquests, i les unitats implicades.") 
+            "sobre els tipus d'accidents, la mortalitat d'aquests, i les unitats implicades.")
+
+st.markdown("Les dades s'han extret de [Dades Obertes Catalunya](https://analisi.transparenciacatalunya.cat/) del conjunt [Accidents de trànsit amb morts o ferits greus](https://analisi.transparenciacatalunya.cat/Transport/Accidents-de-tr-nsit-amb-morts-o-ferits-greus-a-Ca/rmgc-ncpb/about_data).") 
 
 tab1, tab2, tab3 = st.tabs(["Unitats", "Mortalitat", "Tipus"])
 
